@@ -1,0 +1,17 @@
+runtime: php72
+
+handlers:
+- url: /.*
+  script: auto
+
+entrypoint:
+  serve handler.php
+
+  env_variables:
+  # Replace USER, PASSWORD, DATABASE, and CONNECTION_NAME with the
+  # values obtained when configuring your Cloud SQL instance.
+  CLOUDSQL_USER: root
+  CLOUDSQL_DB: master
+  CLOUDSQL_PASSWORD: root@%
+  CLOUDSQL_DSN: 
+# [END gae_cloudsql_mysql_env]
