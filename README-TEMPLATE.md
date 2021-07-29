@@ -1,140 +1,100 @@
-<h1>Titulo ou Arte do Projeto</h1> 
+<h1>Infraestrutura em Cloud para SoluCX</h1> 
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
-  <img src="https://img.shields.io/static/v1?label=Netlify&message=deploy&color=blue&style=for-the-badge&logo=netlify"/>
-  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
-  <img src="http://img.shields.io/static/v1?label=Ruby&message=2.6.3&color=red&style=for-the-badge&logo=ruby"/>
-  <img src="http://img.shields.io/static/v1?label=Ruby%20On%20Rails%20&message=6.0.2.2&color=red&style=for-the-badge&logo=ruby"/>
-  <img src="http://img.shields.io/static/v1?label=TESTES&message=%3E100&color=GREEN&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+   Prezado avaliador, entrego o processo incompleto porém não foi por falta de esforço, mas sim falta de conhecimento em linguagens de programação comumente utilizadas. o desenvolvimento de aplicações em si realmente não é meu dia-a-dia e confesso que me vi bem enferrujada ao exercitá-lo. Abaixo descrevo os processos que utilizei na tentativa de atingir o objetivo proposto.
+     Agradeço a oportunidade pois, mesmo não entregando o esperado, vejo que a oportunidade de ter participado desse processo me apresentou tecnologias que com certeza vou querer desenvolver.
+  
+  Atenciosamente, Maíra Vianna.
+  
 </p>
-
-> Status do Projeto: :heavy_check_mark: :warning: (concluido, em desenvolvimento, etc)
 
 ### Tópicos 
 
-:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
+:small_blue_diamond: [Preparação do ambiente Cloud](#preparação-do-ambiente-cloud)
 
-:small_blue_diamond: [Funcionalidades](#funcionalidades)
+:small_blue_diamond: [Deploy via Terraform](#deploy-via-terraform)
 
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
+:small_blue_diamond: [Adição de dados ao banco MySQL](#adição-de-dados-ao-banco-mysql)
 
-:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
+:small_blue_diamond: [Dificuldades](#dificuldades)
 
-:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+:small_blue_diamond: [Testes realizados](#testes-realizados)
 
-... 
+:small_blue_diamond: [Prints dos processos realizados](#prints-dos-processos-realizados)
 
-Insira os tópicos do README em links para facilitar a navegação do leitor
 
-## Descrição do projeto 
+## Preparação do ambiente Cloud 
 
-<p align="justify">
-  Descrição breve do projeto compondo um paragrafo ou dois. 
-</p>
+:heavy_check_mark: Criado novo projeto SLCXvx via console Gcloud
 
-## Funcionalidades
+:heavy_check_mark:  Criado via console GCloud service account tf-sa, inserido permissões de editor do projeto e gerado chave json
 
-:heavy_check_mark: Funcionalidade 1  
+:heavy_check_mark: Adicionado via console GCloud roles compute admin e cloud sql admin ao service account tf-sa
 
-:heavy_check_mark: Funcionalidade 2  
+:heavy_check_mark: Habilitado via console GCloud as APIs de Compute Engine e Cloud SQL
 
-:heavy_check_mark: Funcionalidade 3  
 
-:heavy_check_mark: Funcionalidade 4  
+## Deploy via Terraform
 
-## Layout ou Deploy da Aplicação :dash:
+:heavy_check_mark: Feito deploy de uma mvm instance CentOS 7 e uma base de dados Cloud SQL MySQL 8 via terraform  
 
-> Link do deploy da aplicação. Exemplo com netlify: https://certificates-for-everyone-womakerscode.netlify.app/
+ 
+## Adição de dados ao banco MySQL
 
-... 
+:heavy_check_mark: Validado dados da instância criada e conectado ao banco de dados MySQL
 
-Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
+:heavy_check_mark: Criado database, tabela master e inserido campo text com o valor desejado
 
-## Pré-requisitos
 
-:warning: [Node](https://nodejs.org/en/download/)
+## Dificuldades
 
-...
+:warning: Estruturar a aplicação web que faz a conexão ao banco de dados e exibe o registro do mesmo
 
-Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação 
+:warning: Definido linguagem padrão PHP porém sem sucesso ao validar a conexão da aplicação ao banco de dados
 
-## Como rodar a aplicação :arrow_forward:
 
-No terminal, clone o projeto: 
 
-```
-git clone https://github.com/React-Bootcamp-WoMarkersCode/certificate-generator
-```
+## Testes realizados
 
-... 
+:heavy_check_mark: Testado publicar aplicação básica de página exibindo somente a frase desejada via App Engine, sucesso
 
-Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio projeto e verfique se o passo a passo funciona**
+:warning: Trabalhado em cima da página básica para utilizar as outras engines solicitadas, sem sucesso
 
-## Como rodar os testes
 
-Coloque um passo a passo para executar os testes
+## Prints dos processos realizados
 
-```
-$ npm test, rspec, etc 
-```
+▶️ Criação vm no compute engine e instância no cloud sql via terraform
 
-## Casos de Uso
+![image](https://user-images.githubusercontent.com/87915203/127576128-184c9c67-0815-444a-bdf3-e69cad47ebdb.png)
 
-Explique com mais detalhes como a sua aplicação poderia ser utilizada. O uso de **gifs** aqui seria bem interessante. 
+⚠️ Corrigido erro de digitação
 
-Exemplo: Caso a sua aplicação tenha alguma funcionalidade de login apresente neste tópico os dados necessários para acessá-la.
+![image](https://user-images.githubusercontent.com/87915203/127576286-0d872f0d-b676-42dd-9dd5-0bd0def6cbf8.png)
 
-## JSON :floppy_disk:
+![image](https://user-images.githubusercontent.com/87915203/127576370-12674040-9761-4e2d-8813-7b9411308e74.png)
 
-### Usuários: 
+▶️ Coletado informações da instância criada
 
-|name|email|password|token|avatar|
-| -------- |-------- |-------- |-------- |-------- |
-|Lais Lima|laislima98@hotmail.com|lais123|true|https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9-U_HbQAipum9lWln3APcBIwng7T46hdBA42EJv8Hf6Z4fDT3&usqp=CAU|
+![image](https://user-images.githubusercontent.com/87915203/127576461-f5108ad3-bd72-434f-9ee7-bd1f823624ab.png)
 
-... 
+▶️ Alterado senha da base criada
 
-Se quiser, coloque uma amostra do banco de dados 
+![image](https://user-images.githubusercontent.com/87915203/127576537-8a4d468a-154f-4f58-bd9a-371aa016f54c.png)
 
-## Iniciando/Configurando banco de dados
+▶️ Conectado e inserido dados na instância criada
 
-Se for necessário configurar algo antes de iniciar o banco de dados insira os comandos a serem executados 
+![image](https://user-images.githubusercontent.com/87915203/127576631-1d8e5b49-4984-4af3-83bc-40f17fb359b5.png)
 
-## Linguagens, dependencias e libs utilizadas :books:
+▶️ Deploy da página básia via app engine
 
-- [React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
-- [React PDF](https://react-pdf.org/)
+![image](https://user-images.githubusercontent.com/87915203/127577319-0bd03c3a-35fd-4039-8192-8a398c488a85.png)
 
-...
+✔️ Acesso à página ❗ O dado exibido não é a pesquisa no banco ❗
 
-Liste as tecnologias utilizadas no projeto que **não** forem reconhecidas pelo Github 
+![image](https://user-images.githubusercontent.com/87915203/127577355-08a36ff4-5978-4fc5-8f83-472f34ebaaa4.png)
 
-## Resolvendo Problemas :exclamation:
+✔️ Acesso à vm CentOS via ip externo
 
-Em [issues]() foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos. 
+![image](https://user-images.githubusercontent.com/87915203/127577578-62c192a2-6907-434d-be22-ab4fe128fe7f.png)
 
-## Tarefas em aberto
 
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação
-
-:memo: Tarefa 1 
-
-:memo: Tarefa 2 
-
-:memo: Tarefa 3 
-
-## Desenvolvedores/Contribuintes :octocat:
-
-Liste o time responsável pelo desenvolvimento do projeto
-
-| [<img src="https://avatars2.githubusercontent.com/u/46378210?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=4" width=115><br><sub>Diana Regina</sub>](https://github.com/Diana-ops) |  [<img src="https://avatars2.githubusercontent.com/u/46378210?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=4" width=115><br><sub>Diana Regina</sub>](https://github.com/Diana-ops) |  [<img src="https://avatars2.githubusercontent.com/u/46378210?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=4" width=115><br><sub>Diana Regina</sub>](https://github.com/Diana-ops) |
-| :---: | :---: | :---: 
-
-## Licença 
-
-The [MIT License]() (MIT)
-
-Copyright :copyright: Ano - Titulo do Projeto
