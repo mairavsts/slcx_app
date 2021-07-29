@@ -27,7 +27,7 @@
 
 :heavy_check_mark: Criado novo projeto SLCXvx via console Gcloud
 
-:heavy_check_mark:  Criado via console GCloud service account tf-sa, inserido permissões de editor do projeto e gerado chave json
+:heavy_check_mark: Criado via console GCloud service account tf-sa, inserido permissões de editor do projeto e gerado chave json
 
 :heavy_check_mark: Adicionado via console GCloud roles compute admin e cloud sql admin ao service account tf-sa
 
@@ -36,7 +36,7 @@
 
 ## Deploy via Terraform
 
-:heavy_check_mark: Feito deploy de uma mvm instance CentOS 7 e uma base de dados Cloud SQL MySQL 8 via terraform  
+:heavy_check_mark: Feito deploy de uma vm instance CentOS 7 e uma base de dados Cloud SQL MySQL 8 via terraform  
 
  
 ## Adição de dados ao banco MySQL
