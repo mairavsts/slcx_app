@@ -1,0 +1,13 @@
+gcloud config set project <project-id>
+
+gcloud compute machine-types list
+
+gcloud sql users set-password root --host=% --instance=my-gc-db01-master --prompt-for-password
+
+gcloud sql users create maira --host=% --instance=my-gc-db01-master --password=
+
+gcloud sql connect my-gc-db01-master
+
+gcloud sql users list --instance=my-gc-db01-master
+
+gcloud app deploy
