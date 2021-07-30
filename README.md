@@ -31,7 +31,7 @@
 
 :heavy_check_mark: Adicionado via console GCloud roles compute admin e cloud sql admin ao service account tf-sa
 
-:heavy_check_mark: Habilitado via console GCloud as APIs de Compute Engine e Cloud SQL
+:heavy_check_mark: Habilitado via console GCloud as APIs de Compute Engine e Cloud SQL no projeto em questão
 
 
 ## Deploy via Terraform
