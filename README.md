@@ -6,7 +6,7 @@
    
   Atenciosamente, Maíra Vianna.
 
-   ⚠️Apenas uma observação, no momento as resources estão desligadas no ambiente de teste no GCloud, não ficou claro no teste se a avaliação iria se conectar diretamente a elas ou apenas validar o processo executado. Caso necessário posso estar iniciando-as. ⚠️   
+   ⚠️Apenas uma observação, no momento as resources estão desligadas no ambiente de teste no GCloud, não ficou claro no descritivo se para a avaliação haverá a conexão diretamente a elas ou apenas validar o processo executado. Caso necessário posso estar iniciando-as. ⚠️   
 
 </p>
 
