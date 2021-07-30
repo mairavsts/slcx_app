@@ -5,6 +5,10 @@
      Agradeço a oportunidade pois, mesmo não entregando o esperado, vejo que a oportunidade de ter participado desse processo me apresentou tecnologias que com certeza vou desenvolver para meu futuro profissional.
    
   Atenciosamente, Maíra Vianna.
+   
+   
+   
+   
 
    ⚠️Apenas uma observação, no momento as resources estão desligadas no ambiente de teste no GCloud, não ficou claro no descritivo se para a avaliação haverá a conexão diretamente a elas ou apenas validar o processo executado. Caso necessário posso estar iniciando-as. ⚠️   
 
