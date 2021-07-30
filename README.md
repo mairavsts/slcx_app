@@ -1,4 +1,4 @@
-<h1>Infraestrutura em Cloud para SoluCX</h1> 
+<h1>Infraestrutura em Cloud</h1> 
 
 <p align="center">
    Prezado avaliador, entrego o processo incompleto porém não foi por falta de esforço, mas sim falta de conhecimento em linguagens de programação comumente utilizadas. O desenvolvimento de aplicações em si realmente não é meu dia-a-dia e confesso que me vi bem enferrujada ao exercitá-lo. Abaixo descrevo os processos que utilizei na tentativa de atingir o objetivo proposto.
