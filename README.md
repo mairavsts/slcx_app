@@ -36,7 +36,7 @@
 
 ## Deploy via Terraform
 
-:heavy_check_mark: Feito deploy de uma vm instance CentOS 7 e uma base de dados Cloud SQL MySQL 8 via terraform  
+:heavy_check_mark: Feito deploy de uma vm instance CentOS 7 e uma base de dados Cloud SQL MySQL 8 via terraform arquivo main.tf 
 
  
 ## Adição de dados ao banco MySQL
