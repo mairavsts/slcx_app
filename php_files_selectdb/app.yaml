@@ -12,6 +12,6 @@ entrypoint:
   # values obtained when configuring your Cloud SQL instance.
   CLOUDSQL_USER: root
   CLOUDSQL_DB: master
-  CLOUDSQL_PASSWORD: 
+  CLOUDSQL_PASSWORD: root@%
   CLOUDSQL_DSN: 
 # [END gae_cloudsql_mysql_env]
