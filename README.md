@@ -1,8 +1,8 @@
 <h1>Infraestrutura em Cloud para SoluCX</h1> 
 
 <p align="center">
-   Prezado avaliador, entrego o processo incompleto porém não foi por falta de esforço, mas sim falta de conhecimento em linguagens de programação comumente utilizadas. o desenvolvimento de aplicações em si realmente não é meu dia-a-dia e confesso que me vi bem enferrujada ao exercitá-lo. Abaixo descrevo os processos que utilizei na tentativa de atingir o objetivo proposto.
-     Agradeço a oportunidade pois, mesmo não entregando o esperado, vejo que a oportunidade de ter participado desse processo me apresentou tecnologias que com certeza vou querer desenvolver.
+   Prezado avaliador, entrego o processo incompleto porém não foi por falta de esforço, mas sim falta de conhecimento em linguagens de programação comumente utilizadas. O desenvolvimento de aplicações em si realmente não é meu dia-a-dia e confesso que me vi bem enferrujada ao exercitá-lo. Abaixo descrevo os processos que utilizei na tentativa de atingir o objetivo proposto.
+     Agradeço a oportunidade pois, mesmo não entregando o esperado, vejo que a oportunidade de ter participado desse processo me apresentou tecnologias que com certeza vou desenvolver para meu futuro profissional.
   
   Atenciosamente, Maíra Vianna.
   
@@ -27,7 +27,7 @@
 
 :heavy_check_mark: Criado novo projeto SLCXvx via console Gcloud
 
-:heavy_check_mark: Criado via console GCloud service account tf-sa, inserido permissões de editor do projeto e gerado chave json
+:heavy_check_mark: Criado via console GCloud service account tf-sa, inserido permissões de editor do projeto e gerado chave JSON
 
 :heavy_check_mark: Adicionado via console GCloud roles compute admin e cloud sql admin ao service account tf-sa
 
