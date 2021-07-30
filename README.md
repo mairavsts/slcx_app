@@ -3,6 +3,8 @@
 <p align="center">
    Prezado avaliador, entrego o processo incompleto porém não foi por falta de esforço, mas sim falta de conhecimento em linguagens de programação comumente utilizadas. O desenvolvimento de aplicações em si realmente não é meu dia-a-dia e confesso que me vi bem enferrujada ao exercitá-lo. Abaixo descrevo os processos que utilizei na tentativa de atingir o objetivo proposto.
      Agradeço a oportunidade pois, mesmo não entregando o esperado, vejo que a oportunidade de ter participado desse processo me apresentou tecnologias que com certeza vou desenvolver para meu futuro profissional.
+   
+   ⚠️Apenas uma observação, no momento as resources estão desligadas no ambiente de teste no GCloud, não ficou claro no teste se a avaliação iria se conectar diretamente a elas ou apenas validar o processo executado. Caso necessário posso estar iniciando-as.
   
   Atenciosamente, Maíra Vianna.
   
