@@ -85,7 +85,7 @@
 
 ![image](https://user-images.githubusercontent.com/87915203/127576631-1d8e5b49-4984-4af3-83bc-40f17fb359b5.png)
 
-▶️ Deploy da página básia via app engine
+▶️ Deploy da página básica via app engine
 
 ![image](https://user-images.githubusercontent.com/87915203/127577319-0bd03c3a-35fd-4039-8192-8a398c488a85.png)
 
